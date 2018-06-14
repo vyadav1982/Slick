@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include slick *.css
+recursive-include slick *.csv
+recursive-include slick *.html
+recursive-include slick *.ico
+recursive-include slick *.js
+recursive-include slick *.json
+recursive-include slick *.md
+recursive-include slick *.png
+recursive-include slick *.py
+recursive-include slick *.svg
+recursive-include slick *.txt
+recursive-exclude slick *.pyc
